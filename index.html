@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <!-- Main container -->
+    <div class="container">
+
+        <!-- Search bar section -->
+        <div class="search">
+            <div class="search_input">
+                <input class="search_bar" type="search" placeholder="Search for a city...">
+            </div>
+            <div class="search_icon">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
+        <!-- Weather details section -->
+        <div class="weather_parent">
+
+            <!-- Main weather information -->
+            <div class="weather_child1">
+                <div class="county_details">
+                    <div class="country_details">
+                        <span><i class="fa fa-location"></i></span>
+                        <h1>Kathmandu, Nepal</h1>
+                    </div>
+                    <p>Friday, March 29, 2025</p>
+                </div>
+
+                <div class="country_deg_details">
+                    <div class="country_deg_details_one">
+                        <i class="fa fa-cloud"></i>
+                    </div>
+                    <div class="country_deg_details_two">
+                        <div class="deg">27°C</div>
+                        <div class="system">Scattered Clouds</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional weather details -->
+            <div class="weather_child2">
+                <div class="weather_child2_child">
+                    <span class="icon"><i class="fa fa-thermometer-half"></i></span>
+                    <div class="feels_like">Feels Like</div>
+                    <div class="deg">29°C</div>
+                </div>
+                <div class="weather_child2_child">
+                    <span class="icon"><i class="fa fa-wind"></i></span>
+                    <div class="feels_like">Wind Speed</div>
+                    <div class="deg">12 km/h</div>
+                </div>
+                <div class="weather_child2_child">
+                    <span class="icon"><i class="fa fa-tint"></i></span>
+                    <div class="feels_like">Humidity</div>
+                    <div class="deg">78%</div>
+                </div>
+                <div class="weather_child2_child">
+                    <span class="icon"><i class="fa fa-cloud"></i></span>
+                    <div class="feels_like">Condition</div>
+                    <div class="deg">Cloudy</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="./public/js/script.js"></script>
+</body>
+
+</html>
