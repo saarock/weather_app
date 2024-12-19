@@ -32,7 +32,7 @@ body {
 }
 
 .search_bar {
-    width: 54rem;
+    width: 22rem;
     height: 3rem;
     border: none;
     border-radius: 1rem;
@@ -59,7 +59,7 @@ body {
 }
 
 .search_icon button:hover {
-    background-color: #1f1f25;
+    background-color: #445bd9;
 }
 
 /* Weather container */
@@ -96,6 +96,7 @@ body {
     justify-content: space-around;
     gap: 1rem;
     padding: 1rem;
+    flex-wrap: wrap;
     background: rgba(54, 51, 51, 0.7);
     border-radius: 1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -133,3 +134,40 @@ body {
     font-size: 1.5rem;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+
+/* responsive desing comment code */
+/* @media only screen and (max-width: 1003px) {
+    
+  
+    .weather_parent {
+        width: 50rem;
+    }
+}
+
+@media  screen and (max-width: 817px) {
+    .weather_parent {
+        width: 33rem;
+    }
+    .weather_child1 {
+       flex-direction: column;
+    }
+    .weather_child2 {
+        width: 30rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media  screen and (max-width: 545px) {
+    .weather_parent {
+        width: 22rem;
+    }
+    .weather_child1 {
+       flex-direction: column;
+    }
+    .weather_child2 {
+        justify-content: start;
+        gap: 1;
+        flex-wrap: wrap;
+    }
+} */

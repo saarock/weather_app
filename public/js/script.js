@@ -1,7 +1,5 @@
 import { saarock } from "https://cdn.jsdelivr.net/gh/saarock/saarock.js@main/dist/index.js";
 
-
-
 /**
  * Api call function
  */
